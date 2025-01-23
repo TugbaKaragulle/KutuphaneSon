@@ -1,6 +1,6 @@
 package exception;
 
-public class BookNotAvailableException extends Exception {
+public class BookNotAvailableException extends RuntimeException {
 
     // Kitap müsait olmadığında fırlatılır.
 
